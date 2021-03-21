@@ -1,0 +1,36 @@
+[
+  {
+    "name": "API Service",
+    "url": "https://api.pennsieve.io/api-docs/swagger.json"
+  },
+  {
+    "name": "Authorization Service",
+    "url": "https://developer.pennsieve.io/api/swagger-schemas/authorization-service.yml",
+    "server": "https://api.pennsieve.io"
+  },
+  {
+    "name": "Discover Service",
+    "url": "https://developer.pennsieve.io/api/swagger-schemas/discover-service.yml",
+    "server": "https://api.pennsieve.io/discover"
+  },
+  {
+    "name": "Model Service",
+    "url": "https://developer.pennsieve.io/api/swagger-schemas/model-service-v1.yml",
+    "server": "https://api.pennsieve.io/models/v1"
+  },
+  {
+    "name": "Model Schema Service",
+    "url": "https://developer.pennsieve.io/api/swagger-schemas/model-schema-service.yml",
+    "server": "https://api.pennsieve.io/model-schema"
+  },
+  {
+    "name": "Upload Service",
+    "url": "https://developer.pennsieve.io/api/swagger-schemas/upload-service.yml",
+    "server": "https://api.pennsieve.io/upload"
+  },
+  {
+    "name": "Zipit Service",
+    "url": "https://developer.pennsieve.io/api/swagger-schemas/zipit-service.yml",
+    "server": "https://api.pennsieve.io/zipit"
+  }
+]

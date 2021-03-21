@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "ava": "1.0.0-rc.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/ava ./*.spec.js"
+  }
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "API Service",
+    "url": "https://api.pennsieve.net/api-docs/swagger.json"
+  },
+  {
+    "name": "Admin Service",
+    "url": "https://admin.api.pennsieve.net/api-docs/swagger.json"
+  },
+  {
+    "name": "Authorization Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/authorization-service.yml",
+    "server": "https://api.pennsieve.net"
+  },
+  {
+    "name": "Discover Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/discover-service.yml",
+    "server": "https://api.pennsieve.net/discover"
+  },
+  {
+    "name": "Discover Service - Internal",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/discover-service-internal.yml",
+    "server": "https://dev-discover-service-use1.pennsieve.net"
+  },
+  {
+    "name": "DOI Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/doi-service.yml",
+    "server": "https://dev-doi-service-use1.pennsieve.net"
+  },
+  {
+    "name": "Job Scheduling Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/job-scheduling-service.yml",
+    "server": "https://dev-job-scheduling-service-use1.pennsieve.net"
+  },
+  {
+    "name": "Model Schema Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/model-schema-service.yml",
+    "server": "https://api.pennsieve.net/model-schema"
+  },
+  {
+    "name": "Model Service V1",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/model-service-v1.yml",
+    "server": "https://api.pennsieve.net/models/v1"
+  },
+  {
+    "name": "Model Service V2",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/model-service-v2.yml",
+    "server": "https://api.pennsieve.net/models/v2"
+  },
+  {
+    "name": "Upload Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/upload-service.yml",
+    "server": "https://api.pennsieve.net/upload"
+  },
+  {
+    "name": "Zipit Service",
+    "url": "https://developer.pennsieve.net/api/swagger-schemas/zipit-service.yml",
+    "server": "https://api.pennsieve.net/zipit"
+  }
+]
