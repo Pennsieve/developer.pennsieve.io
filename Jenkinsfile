@@ -4,14 +4,14 @@ node('executor') {
   checkout scm
 
   def authorName  = sh(returnStdout: true, script: 'git --no-pager show --format="%an" --no-patch')
-  def isMaster    = env.BRANCH_NAME == "master"
+  def isMain      = env.BRANCH_NAME == "main"
   def serviceName = "developer-docs"
 
   def commitHash  = sh(returnStdout: true, script: 'git rev-parse HEAD | cut -c-7').trim()
   def version    = "${env.BUILD_NUMBER}-${commitHash}"
 
   try {
-    if (isMaster) {
+    if (isMain) {
       stage ('Build and Publish') {
         sh "VERSION=${version} make publish"
       }
